@@ -34,7 +34,10 @@ const Home = () => {
 
             <AddButton title="patch the post" completed={true} type="patch"> patch to do</AddButton>
 
+        <AddButton  type="all">Get All Data</AddButton>
 
+        <AddButton type="custom" title="custom title" completed={false}>Custom Headers</AddButton>
+        <AddButton type="handling">Error Handling</AddButton>
         </BasicPageLayout>
     )
 }

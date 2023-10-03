@@ -5,8 +5,8 @@ export type PageTypes={
 }
 
 export type AddButtonTypes = {
-    title: string,
-    completed: boolean;
+    title?: string,
+    completed?: boolean;
     type?: string,
     children?:React.ReactNode
 }
